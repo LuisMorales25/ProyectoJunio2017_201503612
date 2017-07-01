@@ -1,0 +1,11 @@
+digraph g {
+	node [fillcolor=skyblue height=.1 shape=record style=filled]
+	faasd3 [label="user: zoom|| oponente: faasd3|| total de tiros: 7|| tiros acertados: 17|| tiros fallados: 5|| gano: si|| danio: bastante"]
+	faasd2 [label="user: maria|| oponente: faasd2|| total de tiros: 6|| tiros acertados: 16|| tiros fallados: 4|| gano: sidanio:poco"]
+		faasd3 -> faasd2
+		faasd2 -> faasd3
+	faasd2 [label="user: maria|| oponente: faasd2|| total de tiros: 6|| tiros acertados: 16|| tiros fallados: 4|| gano: si|| danio: poco"]
+	faasd [label="user: bart|| oponente: faasd|| total de tiros: 5|| tiros acertados: 15|| tiros fallados: 3|| gano: sidanio:bastante"]
+		faasd2 -> faasd
+		faasd -> faasd2
+}
